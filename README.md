@@ -146,9 +146,9 @@ Average length of break (>25 Ns) between contigs in scaffold        394
 
 ```
   
-Author of modifications: James B. Henderson, jhenderson@calacademy.org
-Source of original script: Bradnam et al., 2013 (see References below)    
-
+Author of modifications: James B. Henderson, jhenderson@calacademy.org  
+Source of original script: Bradnam et al., 2013 (see References below)  
+  
 ### Citing the repository
 
 #### Authorship
