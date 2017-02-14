@@ -162,6 +162,17 @@ bioawk version 1.0 (Li, 2013)
 GNU fold version 8.21 (MacKenzie, 2013)  
 GNU Awk (GAWK) version 4.0.1 (Free Software Foundation, 2012)  
   
+### make-contig-ref.sh
+This script uses bioawk to calculate the average and standard deviation of insert length for a .bam file.  
+  
+Usage:  
+$ ./calcInsertLen.sh  
+  
+Code author: James B. Henderson, jhenderson@calacademy.org  
+  
+This script relies on (other versions will probably also work):  
+bioawk version 1.0 (Li, 2013)  
+  
 ### Citing the repository
 
 #### Authorship
