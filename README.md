@@ -149,6 +149,13 @@ Average length of break (>25 Ns) between contigs in scaffold        394
 Author of modifications: James B. Henderson, jhenderson@calacademy.org  
 Source of original script: Bradnam et al., 2013 (see References below)  
   
+### make-contig-ref.sh
+This script uses bioawk, awk, and fold to divide a scaffolded genome into contigs by breaking at 25 or more N characters. The script then indexes your new contig set with bwa. 
+The script assumes that your scaffolded genome is named "asm.fa" and your output contig set will be named "contig.fa".  
+Usage:  
+$ ./make-contig-ref.sh  
+
+  
 ### Citing the repository
 
 #### Authorship
