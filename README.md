@@ -158,7 +158,7 @@ $ ./make-contig-ref.sh
 Code author: James B. Henderson, jhenderson@calacademy.org  
   
 This script relies on (other versions of these will probably also work):  
-bioawk version 1.0 (Li, 2013)
+bioawk version 1.0 (Li, 2013)  
 GNU fold version 8.21 (MacKenzie, 2013)  
 GNU Awk (GAWK) version 4.0.1 (Free Software Foundation, 2012)  
   
