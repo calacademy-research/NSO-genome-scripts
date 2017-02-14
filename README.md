@@ -150,11 +150,17 @@ Author of modifications: James B. Henderson, jhenderson@calacademy.org
 Source of original script: Bradnam et al., 2013 (see References below)  
   
 ### make-contig-ref.sh
-This script uses bioawk, awk, and fold to divide a scaffolded genome into contigs by breaking at 25 or more N characters. The script then indexes your new contig set with bwa. 
-The script assumes that your scaffolded genome is named "asm.fa" and your output contig set will be named "contig.fa".  
+This script uses bioawk, awk, and fold to divide a scaffolded genome into contigs by breaking at 25 or more N characters. The script then indexes your new contig set with bwa. The script assumes that your scaffolded genome is named "asm.fa" and your output contig set will be named "contig.fa".  
+  
 Usage:  
 $ ./make-contig-ref.sh  
-
+  
+Code author: James B. Henderson, jhenderson@calacademy.org  
+  
+This script relies on (other versions of these will probably also work):  
+bioawk version 1.0 (Li, 2013)
+GNU fold version 8.21 (MacKenzie, 2013)  
+GNU Awk (GAWK) version 4.0.1 (Free Software Foundation, 2012)  
   
 ### Citing the repository
 
@@ -166,6 +172,8 @@ README.md author: Zachary R. Hanna
 Bradnam KR., Fass JN., Alexandrov A., Baranay P., Bechner M., Birol I., Boisvert S., Chapman JA., Chapuis G., Chikhi R., Chitsaz H., Chou W-C., Corbeil J., Del Fabbro C., Docking TR., Durbin R., Earl D., Emrich S., Fedotov P., Fonseca NA., Ganapathy G., Gibbs RA., Gnerre S., Godzaridis E., Goldstein S., Haimel M., Hall G., Haussler D., Hiatt JB., Ho IY., Howard J., Hunt M., Jackman SD., Jaffe DB., Jarvis ED., Jiang H., Kazakov S., Kersey PJ., Kitzman JO., Knight JR., Koren S., Lam T-W., Lavenier D., Laviolette F., Li Y., Li Z., Liu B., Liu Y., Luo R., MacCallum I., MacManes MD., Maillet N., Melnikov S., Naquin D., Ning Z., Otto TD., Paten B., Paulo OS., Phillippy AM., Pina-Martins F., Place M., Przybylski D., Qin X., Qu C., Ribeiro FJ., Richards S., Rokhsar DS., Ruby JG., Scalabrin S., Schatz MC., Schwartz DC., Sergushichev A., Sharpe T., Shaw TI., Shendure J., Shi Y., Simpson JT., Song H., Tsarev F., Vezzi F., Vicedomini R., Vieira BM., Wang J., Worley KC., Yin S., Yiu S-M., Yuan J., Zhang G., Zhang H., Zhou S., Korf IF. 2013. Assemblathon 2: evaluating de novo methods of genome assembly in three vertebrate species. GigaScience 2:10. DOI: 10.1186/2047-217X-2-10.  
 Free Software Foundation 2012. GNU Awk . Version 4.0.1. Available at <https://www.gnu.org/software/gawk/>.  
 Ihnat DM., MacKenzie D., Meyering J. 2015. cut (GNU coreutils). Version 8.21. Available at <http://www.gnu.org/software/coreutils/coreutils.html>.  
+Li H. 2013. bioawk. Version 1.0. Available at <https://github.com/lh3/bioawk>.  
+MacKenzie D. 2013. fold (GNU coreutils). Version 8.21. Available at <http://www.gnu.org/software/coreutils/coreutils.html>.  
 Matplotlib Development Team 2016. matplotlib. Version 1.5.1. Available at <http://matplotlib.org>.  
 NumPy Developers 2016. NumPy. Version 1.11.1. Available at <http://www.numpy.org>.  
 Python Software Foundation 2016. Python. Version 2.7.12. Available at <https://www.python.org>.  
