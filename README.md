@@ -1,5 +1,5 @@
 # NSO-genome-scripts
-This is a repository for scripts and files associated with the Spotted Owl (*Strix occidentalis*) genome project.
+This is a repository for scripts and files associated with the Northern Spotted Owl (*Strix occidentalis caurina*) genome project.
 
 ### vcf-coverage-calc.py
 This script takes a coverage file as input where each line of the file has an integer giving the unfiltered allele depth summed across all of the alleles at the site. It then calculates the mean and standard deviation of the distribution and then outputs these values in a graph of the distribution of values.  
