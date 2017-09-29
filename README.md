@@ -191,6 +191,8 @@ Bradnam KR., Fass JN., Alexandrov A., Baranay P., Bechner M., Birol I., Boisvert
   
 Free Software Foundation 2012. GNU Awk . Version 4.0.1. Available at <https://www.gnu.org/software/gawk/>.  
   
+Hunter JD. 2007. Matplotlib: A 2D graphics environment. Computing In Science & Engineering. 9:90–95. doi: 10.1109/MCSE.2007.55.  
+  
 Ihnat DM., MacKenzie D., Meyering J. 2015. cut (GNU coreutils). Version 8.21. Available at <http://www.gnu.org/software/coreutils/coreutils.html>.  
   
 Li H. 2013. bioawk. Version 1.0. Available at <https://github.com/lh3/bioawk>.  
