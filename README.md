@@ -7,7 +7,7 @@ This script takes a coverage file as input where each line of the file has an in
 Usage:  
 $ vcf-coverage-calc.py vcf-coverage.out  
 
-Author: Zachary R. Hanna, zachanna@berkeley.edu  
+Author: <a href="https://orcid.org/0000-0002-0210-7261" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">Zachary R. Hanna</a>  
 
 This script relies on (other versions of these will probably also work):  
 Python version 2.7.12 (Python Software Foundation, 2016)  
@@ -29,7 +29,7 @@ total: 2687895.000000   totzero: 6790448 totone: 2687895 total 0.5:
 "totone" gives the number of sites where the probability of difference = 1  
 "total 0.5" gives the number of sites where the probability of difference = 0.5  
 
-Authors: Zachary R. Hanna, zachanna@berkeley.edu; James B. Henderson  
+Authors: <a href="https://orcid.org/0000-0002-0210-7261" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">Zachary R. Hanna</a>, James B. Henderson  
 
 This script relies on (other versions of these will probably also work):  
 GNU cut version 8.21 (Ihnat, MacKenzie & Meyering, 2015)  
@@ -50,7 +50,7 @@ total: 2687895.000000   totzero: 6790448 totone: 2687895 total 0.5:
 "totone" gives the number of sites where the probability of difference = 1  
 "total 0.5" gives the number of sites where the probability of difference = 0.5  
 
-Authors: Zachary R. Hanna, zachanna@berkeley.edu; James B. Henderson  
+Authors: <a href="https://orcid.org/0000-0002-0210-7261" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">Zachary R. Hanna</a>, James B. Henderson  
 
 This script relies on (other versions of these will probably also work):  
 GNU cut version 8.21 (Ihnat, MacKenzie & Meyering, 2015)  
@@ -71,7 +71,7 @@ total: 8046106.000000   totzero:  totone: 6613869 total 0.5: 2864474
 "totone" gives the number of sites where the probability of difference = 1  
 "total 0.5" gives the number of sites where the probability of difference = 0.5  
 
-Authors: Zachary R. Hanna, zachanna@berkeley.edu; James B. Henderson  
+Authors: <a href="https://orcid.org/0000-0002-0210-7261" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">Zachary R. Hanna</a>, James B. Henderson  
 
 This script relies on (other versions of these will probably also work):  
 GNU cut version 8.21 (Ihnat, MacKenzie & Meyering, 2015)  
@@ -146,7 +146,7 @@ Average length of break (>25 Ns) between contigs in scaffold        394
 
 ```
   
-Author of modifications: James B. Henderson, jhenderson@calacademy.org  
+Author of modifications: James B. Henderson  
 Source of original script: Bradnam et al., 2013 (see References below)  
   
 ### make-contig-ref.sh
@@ -155,7 +155,7 @@ This script uses bioawk, awk, and fold to divide a scaffolded genome into contig
 Usage:  
 $ ./make-contig-ref.sh  
   
-Code author: James B. Henderson, jhenderson@calacademy.org  
+Code author: James B. Henderson  
   
 This script relies on (other versions of these will probably also work):  
 bioawk version 1.0 (Li, 2013)  
@@ -168,7 +168,7 @@ This script uses bioawk to calculate the average and standard deviation of inser
 Usage:  
 $ ./calcInsertLen.sh  
   
-Code author: James B. Henderson, jhenderson@calacademy.org  
+Code author: James B. Henderson  
   
 This script relies on (other versions will probably also work):  
 bioawk version 1.0 (Li, 2013)  
